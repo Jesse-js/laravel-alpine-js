@@ -19,5 +19,9 @@
             <button @click="increment">Increment</button>
             <button @click="decrement">Decrement</button>
         </div>
+
+        <div x-data>
+            <input type="text" x-mask="999.999.999-99" placeholder="999.999.999-99">
+        </div>
     </body>
 </html>
